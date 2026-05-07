@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #121212; /* Nền đen nhám */
+  color: #ffffff; /* Chữ trắng */
+}
+
+@keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
